@@ -13,6 +13,9 @@ app.get("/",(req,res)=>{
 app.get("/ping",(req,res)=>{
       return res.send("Pong")
 })
+app.get("/welcome",(req,res)=>{
+       res.send({msg:"Welcome to my profile"})
+})
 
 const PORT=process.env.PORT;
 
