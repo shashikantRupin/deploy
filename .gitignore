@@ -1,0 +1,4 @@
+node_modules/
+.env
+
+# we are ignoring node_modules and env file in git
